@@ -16,4 +16,5 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testCompile 'com.tngtech.archunit:archunit:0.10.2'
 }
